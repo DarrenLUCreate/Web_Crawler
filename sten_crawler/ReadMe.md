@@ -18,6 +18,7 @@
 3. 使用requests套件發出http get的請求到server端。
 4. 使用find_all對文章標題所在的class爬取裡面的內容，以及time標籤裡所需要的文章發布時間。
 5. 最後將所需要的資料整理成字典，利用json.dump輸出成stn_crawler.json檔案，完成此次的爬蟲練習。
+6. ![title](https://github.com/DarrenLUCreate/DarreNC/blob/master/Img/stn_output.png)
 
 ## 練習心得
 
