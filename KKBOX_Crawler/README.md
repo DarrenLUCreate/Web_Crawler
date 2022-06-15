@@ -7,4 +7,7 @@
   4. 解析內容:使用BeauifulSoup的select進行解析
   5. 整理成資料儲存至csv裡
  
+* 檢查網頁
+![開發人員工具檢視網頁架構](https://github.com/DarrenLUCreate/DarreNC/blob/master/Img/KKbox_WEB.png)
 * 輸出畫面
+![CSV輸出畫面](https://github.com/DarrenLUCreate/DarreNC/blob/master/Img/KKbox_output.png)
