@@ -27,7 +27,7 @@ def HumanPostCrawl(request):
     option.add_argument("--headless")
     option.add_argument("--incognito")
 
-    browser_path = 'C:/Users/User/Anaconda3/Lib/site-packages/selenium/webdriver/chrome/chromedriver.exe'
+    browser_path = ''
     browser = webdriver.Chrome(browser_path, options=option)
 
     site_path = 'https://www.104.com.tw/jobs/main/'
