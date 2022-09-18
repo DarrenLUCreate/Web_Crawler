@@ -14,8 +14,5 @@
 * 練習清單
  1. [111年4月桃園各區人口與戶籍動態登記](https://github.com/DarrenLUCreate/Web_Crawler/tree/main/Taoyuan_Population)
 
-### 畢業專題
- * [音樂推薦系統Music_Recommender System]()
-
 ### Django Scraper APP
 1. [104人力銀行Django](https://github.com/DarrenLUCreate/Web_Crawler/tree/main/django/scraper/HumanResource)
