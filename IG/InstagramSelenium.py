@@ -26,7 +26,7 @@ class InstagramScraper():
 
     
     def InstagramSeleniumScraper(self):
-        self.config.read('C:/Users/User/scraper/config.ini')
+        self.config.read('')
         USERNAME = self.config['Instagram']['USERNAME']
         PASSWORD = self.config['Instagram']['PASSWORD']
 
