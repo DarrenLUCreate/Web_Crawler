@@ -12,7 +12,7 @@ import json
 import configparser
 
 
-browser_path = 'C:/Users/User/Anaconda3/Lib/site-packages/selenium/webdriver/chrome/chromedriver.exe'
+browser_path = ''
 
 class InstagramScraper():
     def __init__(self, keyword=str, account=str):
