@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh_tw">
+<head>
+    <meta charset="utf-8">
+    <title>我的爬蟲APP</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" type="text/css">
+</head>
+<body>
+    <h1>104 人力資源網爬蟲搜尋</h1>
+    <div></div>
+    <p>Attendez quelques minutes, s'il vous plaît~</p>
+    <form action="/HumanPostCrawl/" method="post">
+    	{% csrf_token %}
+       請搜尋職缺關鍵字: <input type="text" name="title" required /><br>
+       <input class="submit_btn" type="submit" value="送出">        
+    </form>
+  </body>
+</html>

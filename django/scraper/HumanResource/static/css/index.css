@@ -1,0 +1,59 @@
+body{
+	font-family: "Century","微軟正黑體";
+	font-weight: bold;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+}
+h1{
+	position: fixed;
+	left: 370px;
+	top: 50px;
+	font-size: 60px;
+}
+div{
+	position: relative;
+
+}
+div:after{
+		content: '';
+		display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: ;
+    bottom: 0;
+    left: 0;
+    background: url('https://cdn2.ettoday.net/images/867/d867907.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+}
+p{
+	position: fixed;
+	left: 420px;
+	top: 180px;
+	font-size: 24px;
+}
+
+form{
+	position: fixed;
+	left: 450px;
+	top: 280px;
+	font-size: 24px;
+}
+.submit_btn{
+	border:1;
+  background-color:#ffffff;
+  color:#000000;
+  border-radius:10px;
+  cursor:pointer;
+  width: 100px;
+  height: 30px;
+}
+.submit_btn:hover{
+  color:#003C9D;
+  background-color:#fff;
+  border:2px #003C9D solid;
+}

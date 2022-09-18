@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh_tw">
+<head>
+	<meta charset="utf-8">
+	<title>104人力銀行資源如下</title>
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/jobResult.css' %}" type="text/css">
+</head>
+<body>
+	<h2>搜尋結果如下</h2>
+	<table border="0" cellpadding="10", cellspacing="4">
+		<th>職位名稱</th>
+		<th>公司名稱</th>
+		<th>公司地點</th>
+		<th>薪水</th>
+
+		{% for job in all_jobs %}
+		<tr>
+			<td>{{job.title}}</td>
+			<td>{{job.company}}</td>
+			<td>{{job.location}}</td>
+			<td>{{job.salary}}</td>
+		</tr>
+		{% endfor %}
+	</table>
+	<div id="footer">
+		<span>爬蟲測試</span>
+	</div>
+
+</body>
+</html>
