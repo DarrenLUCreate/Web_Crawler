@@ -109,5 +109,5 @@ class InstagramScraper():
 
 
 if __name__ == '__main__':
-    a = InstagramScraper('follow', 'chloefit0612')
+    a = InstagramScraper('follow', 'c')
     a.InstagramSeleniumScraper()
