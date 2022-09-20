@@ -103,11 +103,6 @@ class InstagramScraper():
         print(f'此次爬蟲總共花了 {time.time()-start_time} 秒')
         self.browser.quit()
 
-    def get_media_info_data(self, count, after):
-        pass
-
-
-
 if __name__ == '__main__':
     a = InstagramScraper('follow', 'c')
     a.InstagramSeleniumScraper()
