@@ -39,3 +39,9 @@
 今天主要改寫POST的結果呈現，一開始做的時候只有將結果呈現在jobResult.html裡面，但缺點是無法紀錄爬蟲的結果呈現，想要得到之前的成果但是卻還要重爬一次，
 於是我將所有資料的結果寫入資料庫，以方便日後使用Get取出資料，加快程式效率，再將前面三筆空白的資料刪除，並客製化後台的呈現，加入分頁以及篩選條件，
 使得在後台觀看資料時可以方便快速得到我要的資料。
+
+**資料庫畫面**
+![](https://github.com/DarrenLUCreate/DarreNC/blob/master/Img/mysql_data.png)
+
+**後臺畫面**
+![](https://github.com/DarrenLUCreate/DarreNC/blob/master/Img/django_admin.png)
